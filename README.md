@@ -53,4 +53,7 @@ El archivo se generara con la siguiente estructura
 }
 ```
 
-## License
+## 📄 Licencia
+
+Este proyecto se distribuye bajo la licencia **GNU GPL v3**.  
+Consulta el archivo [`LICENSE`](LICENSE) para más detalles.
