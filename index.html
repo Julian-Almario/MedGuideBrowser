@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Guias medicas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <small class="autor">Created by Julian Andres Almario Loaiza</small>
+        <h1>Filtro de guias medicas</h1>
+        <input type="text" id="searchInput" placeholder="Buscar guía..." onkeyup="filtrarResultados()" />
+    </header>
+    <select id="fuenteFiltro" onchange="filtrarResultados()">
+        <option value="">Fuentes</option>
+    </select>
+
+    <div id="contenido"></div>
+    <div id="paginacion"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
